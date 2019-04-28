@@ -1,0 +1,117 @@
+body{
+	background-image: linear-gradient(to right, black, gray, black);
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+.header{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 5px;
+	padding: 2vh;
+	border: 5px solid maroon;
+	border-radius: 10px;
+}
+
+.logo{
+	float: left;
+	border-radius: 10px;
+	grid-column: 1/3;
+	grid-row: 1/3;
+}
+
+.home-button{
+	padding: 10px 20px;
+	background: black;
+	color: white;
+	grid-column: 9/10;
+	grid-row: 1/2;
+	text-align: center;
+	border-radius: 10px;
+	float: right;
+}
+
+.home-button:hover{
+	padding: 10px 20px;
+	background: white;
+	color: maroon;
+	grid-columns: 9/10;
+	grid-rows: 1/2;
+	text-align: center;
+	border-radius: 10px;
+}
+
+p{
+	color: maroon;
+	text-align: justify;
+}
+
+.container{
+	margin-top: 8px;
+	grid-gap: 8px;
+	border: 5px solid maroon;
+	border-radius: 10px;
+}
+
+.kpop{
+	font-family: Lucida Calligraphy;
+	font-size: 50px;
+	text-align: center;
+	color: maroon;
+}
+
+.kpop-text{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container2{
+	margin-top: 8px;
+	grid-gap: 8px;
+	border: 5px solid maroon;
+	border-radius: 10px;
+}
+
+.jyp{
+	font-family: Lucida Calligraphy;
+	font-size: 50px;
+	text-align: center;
+	color: maroon;
+}
+
+.jyp-text{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container3{
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 8px;
+}
+
+.gif1{
+	border-radius: 10px;
+	grid-column: 1/2;
+	margin-left: 30px;
+}
+
+.gif2{
+	border-radius: 10px;
+	grid-column: 2/3;
+	margin-left: 15px;
+}
+
+.gif3{
+	border-radius: 10px;
+	grid-column: 3/4;
+	margin-right: 30px;
+}
